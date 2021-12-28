@@ -13,8 +13,7 @@ if ($_SESSION['user']){
     <link rel="stylesheet" href="../css/singin.css">
 </head>
 <body>
-    <!--Форма авторизации-->
-    <form action="./functions/singin.php" method="POST">
+        <form action="./functions/singin.php" method="POST">
         <ul>
             <li>
                 <label for="">Логин </label>
@@ -25,7 +24,7 @@ if ($_SESSION['user']){
                 <input type="password" name="password">
             </li>
         </ul>        
-        <button>Войти</button>
+        <button class="btn btn-white btn-animate">Войти</button>
         <p>У вас нет аккаунта? <a href="./reg.php">Зарегистрируйтесь</a></p> <br>        
         <a class="back" href="../index.html">Вернуться на главную</a>
         <?php 
@@ -35,5 +34,7 @@ if ($_SESSION['user']){
             unset($_SESSION['message']);
         ?>
     </form>
+    <!--Форма авторизации-->
+    
 </body>
 </html>

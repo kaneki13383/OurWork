@@ -10,6 +10,10 @@ body{
     width: 100%;
 }
 
+
+
+
+/* Desktop version */
 @media screen and (min-width: 1878px) {
     
     /* Header */
@@ -76,6 +80,10 @@ body{
     }
 }
 
+
+
+
+/* Laptop version */
 @media screen and (min-width: 1496px) and (max-width: 1878px) {
     
     /* Header */
@@ -99,7 +107,7 @@ body{
         flex-direction: row;
         height: 30%;
         width: 100%;
-        padding-top: 16.4%;
+        padding-top: 16.5%;
         background: rgba(0, 0, 0, 0.5);
     }
     .li_first{
@@ -123,7 +131,7 @@ body{
         transition-duration: 0.1s;
     }
     svg{
-        top: 36%;
+        top: 36.1%;
         right: 2%;
         position: absolute;
         width: 45px;

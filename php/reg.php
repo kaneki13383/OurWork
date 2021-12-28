@@ -25,14 +25,14 @@ if ($_SESSION['user']){
     <input type="password" name="password" placeholder="Введите пароль" id="">
     <label for="">Подтверждение пароля</label>
     <input type="password" name="password_confirm" placeholder="Подтвердите пароль" id="">
-    <button type="submit">Зарегистрироваться</button>
-    <p>
+    <button class="btn btn-white btn-animate" type="submit">Зарегистрироваться</button>
+    <p class="back">
         Уже есть аккаунт? <a href="./singin.php">Войти</a> <br> 
         <a class="back" href="../index.html">Вернуться на главную</a>
     </p>
         <?php 
             if ($_SESSION['message']){
-                echo '<p class="asg">' . $_SESSION['message'] . '</p>';
+                echo '<p class="back">' . $_SESSION['message'] . '</p>';
             }
             unset($_SESSION['message']);
         ?>
