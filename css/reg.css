@@ -104,7 +104,6 @@ body{
         text-align: center;
     }
 }
-
 /* Reduced desktop version */
 @media screen and (min-width: 1700px) and (max-width: 1878px){
     form{
